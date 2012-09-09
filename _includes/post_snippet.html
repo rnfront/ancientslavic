@@ -1,0 +1,9 @@
+<div class="b-post-snippet">
+    <h3 class="b-post-snippet__title">
+        <a href="{{ post.url }}">
+        {% if post.title == '__' %} {{ post.content | truncatewords: 7 }} {% else %} {{ post.title }} {% endif %}
+        </a>
+    </h3>
+    <h5 class="b-post-snippet__data">{{ post.date }}</h5>
+    <p class="b-post-snippet__text">{{ post.content | strip_html | truncatewords: 40 }}</p>
+</div>

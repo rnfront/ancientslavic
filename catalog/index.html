@@ -1,0 +1,7 @@
+---
+layout: catalog-index
+---
+
+{% for post in site.categories.catalog %}
+    {% include post_snippet.html %}
+{% endfor %}

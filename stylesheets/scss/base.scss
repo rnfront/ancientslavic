@@ -1,2 +1,18 @@
 @import "normalize";
 @import "defaults";
+@import "fonts";
+@import "header";
+@import "macro";
+
+.b-catalog-item {
+  width: 80%;
+  margin: auto;
+  margin-top: 1em;
+}
+.b-catalog-item__source {
+  font-size: 80%;
+}
+.b-catalog-index {
+  width: 80%;
+  margin: auto;
+}

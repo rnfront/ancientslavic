@@ -1,6 +1,6 @@
 <div class="b-post-snippet">
     <h3 class="b-post-snippet__title">
-        <a href="{{ post.url }}">
+        <a href="{{ site.baseurl }}/{{ post.url }}">
         {% if post.title == '__' %} {{ post.content | truncatewords: 7 }} {% else %} {{ post.title }} {% endif %}
         </a>
     </h3>
